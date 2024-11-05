@@ -1,0 +1,100 @@
+
+body {
+    margin: 50px 20%;
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.wrapper {
+    padding: 30px;
+}
+
+li {
+    margin: 7px 0;
+    padding-left: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.top h1 {
+    color: hsl(24, 5%, 18%);
+    font-size: 32px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.preparation-time {
+    padding: 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+
+.preparation-time ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-time ul li span {
+    font-weight: bold;
+}
+
+.preparation-time h3 {
+    margin: 0;
+    color: hsl(332, 51%, 32%);
+}
+
+.inner h3 {
+    color: hsl(14, 45%, 36%);
+    font-size: 24px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ingredients ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.instructions ol li span {
+    font-weight: bold;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.nutrition td {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+    
+.nutrition td:first-child {
+    padding-left: 20px;
+    font-weight: normal;
+    color: #6d6d6d;
+}
+
+.nutrition td:last-child {
+    text-align: left;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
